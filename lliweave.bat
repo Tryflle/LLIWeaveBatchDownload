@@ -12,7 +12,7 @@ mkdir .weave
 cd .weave
 mkdir mods
 cd mods
-explorer.exe %userprofile%/.weave/mods
+explorer %userprofile%/.weave/mods
 echo Put your mods in %userprofile%/.weave/mods (explorer tab has been opened at this location)
 echo Remember weave only supports WEAVE mods. 
 echo Once you are ready, launch lunar client. You will need to open the lunar launcher inject file inside of the toilet folder created
