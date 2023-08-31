@@ -3,7 +3,8 @@ echo Downloading contents to /lunarlauncherinject
 mkdir lunarlauncherinject
 cd lunarlauncherinject
 powershell -Command "Invoke-WebRequest  https://github.com/Nilsen84/lunar-launcher-inject/releases/download/v1.3.0/lunar-launcher-inject-windows-1.3.0.exe -OutFile lunar-launcher-inject-windows-1.3.0.exe"
-powershell -Command "Invoke-WebRequest https://github.com/Weave-MC/Weave-Loader/releases/download/v0.2.3/Weave-Loader-Agent-0.2.3.jar -OutFile Weave-Loader-Agent-0.2.3.jar"
+powershell -Command "Invoke-WebRequest https://cdn.discordapp.com/attachments/1081743704903143444/1146867616057671760/Weave-Loader-Agent-0.2.3.jar -OutFile Weave-Loader-Agent-0.2.3-Mixin-Patch.jar"
+::powershell -Command "Invoke-WebRequest https://github.com/Weave-MC/Weave-Loader/releases/download/v0.2.3/Weave-Loader-Agent-0.2.3.jar -OutFile Weave-Loader-Agent-0.2.3.jar"
 timeout /t 1
 start lunar-launcher-inject-windows-1.3.0.exe
 echo If the lunar client launcher opened, lunar has been injected into and attached with weave.
