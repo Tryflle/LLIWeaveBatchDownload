@@ -8,5 +8,4 @@ written on mobile so if there are any issues I'll iron them out later, just git 
 updated for new launcher
 
 
-weave mixins are broken right now :(
-use lcqt/cli and archived multiver to continue using mods with mixins
+added patched weave loader agent download link from weave discord instead of broken agent
